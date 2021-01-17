@@ -15,5 +15,5 @@
 const ENV = process.env.NODE_ENV
 
 module.exports = {
-  publicPath: ENV === 'development' ? '' : '/wenhuan/'
+  publicPath: ENV === 'development' ? '' : '/wenhuan97.github.io/'
 }
