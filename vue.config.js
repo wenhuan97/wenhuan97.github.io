@@ -13,8 +13,12 @@
 // }
 // vue.config.js
 // 再来
-const ENV = process.env.NODE_ENV
+// const ENV = process.env.NODE_ENV
 
+// module.exports = {
+//   publicPath: ENV === 'development' ? '' : '/wenhuan97.github.io/'
+// }
 module.exports = {
-  publicPath: ENV === 'development' ? '' : '/wenhuan97.github.io/'
+  publicPath: './',
+  outputDir: 'docs'
 }
